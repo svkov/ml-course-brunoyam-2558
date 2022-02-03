@@ -1,0 +1,20 @@
+# Название окружения
+name: ml-course-brunoyam
+channels:
+  # Репозитории, из которых будут подтягиваться пакеты
+  - conda-forge
+  - anaconda
+dependencies:
+  # Используемые пакеты
+  - numpy
+  - pandas
+  - matplotlib
+  - plotly
+  - scikit-learn==1.0.1
+  - scipy==1.6.2
+  - seaborn
+  - statsmodels
+  - nltk
+  - gensim
+  - jupyter
+  - jupyterlab

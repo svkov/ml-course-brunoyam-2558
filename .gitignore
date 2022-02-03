@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+data/school.db
+*__pycache__
+.snakemake
+data/*
+!data/.gitignore
+*.pickle
+*.zip
