@@ -1,0 +1,121 @@
+{
+    "commit-message-editor.staticTemplate": [
+        "01 lesson notebook update"
+    ],
+    "commit-message-editor.dynamicTemplate": [
+        "{type}: {lesson_number}",
+        "",
+        "{description}"
+    ],
+    "commit-message-editor.tokens": [
+        {
+            "label": "lesson_nubmer",
+            "name": "lesson_number",
+            "type": "enum",
+            "options": [
+                {
+                    "label": "1",
+                    "value": "1",
+                    "description": ""
+                },
+                {
+                    "label": "2",
+                    "value": "2",
+                    "description": ""
+                },
+                {
+                    "label": "3",
+                    "value": "3",
+                    "description": ""
+                },
+                {
+                    "label": "4",
+                    "value": "4",
+                    "description": ""
+                },
+                {
+                    "label": "5",
+                    "value": "5",
+                    "description": ""
+                },
+                {
+                    "label": "6",
+                    "value": "6",
+                    "description": ""
+                },
+                {
+                    "label": "7",
+                    "value": "7",
+                    "description": ""
+                },
+                {
+                    "label": "8",
+                    "value": "8",
+                    "description": ""
+                },
+                {
+                    "label": "9",
+                    "value": "9",
+                    "description": ""
+                },
+                {
+                    "label": "10",
+                    "value": "10",
+                    "description": ""
+                },
+                {
+                    "label": "11",
+                    "value": "11",
+                    "description": ""
+                },
+                {
+                    "label": "12",
+                    "value": "12",
+                    "description": ""
+                },
+                {
+                    "label": "13",
+                    "value": "13",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "label": "description",
+            "name": "description",
+            "type": "text"
+        },
+        {
+            "label": "type",
+            "name": "type",
+            "type": "enum",
+            "options": [
+                {
+                    "label": "fix notebook",
+                    "value": "fix notebook",
+                    "description": ""
+                },
+                {
+                    "label": "new lesson",
+                    "value": "new lesson",
+                    "description": ""
+                },
+                {
+                    "label": "fix readme",
+                    "value": "fix readme",
+                    "description": ""
+                },
+                {
+                    "label": "add data",
+                    "value": "add data",
+                    "description": ""
+                },
+                {
+                    "label": "fix data",
+                    "value": "fix data",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}
