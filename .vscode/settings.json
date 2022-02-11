@@ -114,6 +114,11 @@
                     "label": "fix data",
                     "value": "fix data",
                     "description": ""
+                },
+                {
+                    "label": "add solution",
+                    "value": "add solution",
+                    "description": ""
                 }
             ]
         }
